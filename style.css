@@ -132,26 +132,21 @@ textarea {
 #contact form textarea {
   width: 100%;
   border-radius: 1.6rem;
-  border: 0.2rem solid var(--color-base-purple);
+  border: 0.15rem solid var(--color-base-purple);
   font-size: 1.6rem;
-  font-weight: 300;
-  padding: 1.6rem 2rem 1.6rem 4rem;
+  font-weight: 600;
+  padding: 1.2rem 2rem 1.6rem 4rem;
   align-items: center;
 }
 
 #contact form textarea {
   height: 12.6rem;
+  resize: none;
 }
 
 #contact form input::placeholder,
 #contact form textarea::placeholder {
   color: var(--color-base-purple);
-  font-size: 1.6rem;
-  font-weight: 600;
-}
-
-#contact form input::placeholder {
-  padding-left: 2.8rem;
 }
 
 #contact form button {
@@ -173,13 +168,10 @@ textarea {
 
 #name {
   background: url(./assets/person.svg) no-repeat scroll 1.4rem 1.2rem;
-  
-
 }
 
 #email {
   background: url(./assets/at.svg) no-repeat scroll 1.4rem 1.2rem;
-  
 }
 
 footer {
@@ -194,7 +186,6 @@ footer p {
   line-height: 2.4rem;
   font-weight: 500;
 }
-
 
 @media (min-width: 1440px) {
   h1 {
